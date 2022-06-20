@@ -1,5 +1,4 @@
 let loadData = () => {
-    alert('loading')
     fetch('https://dataserverdaw.herokuapp.com/escritores/xml')
         .then(response => response.text())
         .then(data => {
